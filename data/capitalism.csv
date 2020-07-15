@@ -1,0 +1,180 @@
+﻿country,economicFreedomScore,pop2020
+Hong Kong,90.2,7496.981
+Singapore,89.4,5850.342
+New Zealand,84.4,4822.233
+Switzerland,81.9,8654.622
+Australia,80.9,25499.884
+Ireland,80.5,4937.786
+United Kingdom,78.9,67886.011
+Canada,77.7,37742.154
+United Arab Emirates,77.6,9890.402
+Taiwan,77.3,23816.775
+Iceland,77.1,341.243
+Netherlands,76.8,17134.872
+United States,76.8,331002.651
+Denmark,76.7,5792.202
+Estonia,76.6,1326.535
+Luxembourg,75.9,625.978
+Georgia,75.9,3989.167
+Chile,75.4,19116.201
+Sweden,75.2,10099.265
+Finland,74.9,5540.72
+Lithuania,74.2,2722.289
+Malaysia,74,32365.999
+Czech Republic,73.7,10708.981
+Germany,73.5,83783.942
+Mauritius,73,1271.768
+Norway,73,5421.241
+Israel,72.8,8655.535
+Qatar,72.6,2881.053
+South Korea,72.3,51269.185
+Japan,72.1,126476.461
+Austria,72,9006.398
+Macedonia,71.1,2083.374
+Rwanda,71.1,12952.218
+Macau,71,649.335
+Latvia,70.4,1886.198
+Botswana,69.5,2351.627
+Bulgaria,69,6948.445
+Saint Lucia,68.7,183.627
+Malta,68.6,441.543
+Jamaica,68.6,2961.167
+Uruguay,68.6,3473.73
+Romania,68.6,19237.691
+Thailand,68.3,69799.978
+Cyprus,68.1,1207.359
+Peru,67.8,32971.854
+Poland,67.8,37846.611
+Armenia,67.7,2963.243
+Belgium,67.3,11589.623
+Colombia,67.3,50882.891
+Panama,67.2,4314.767
+Albania,66.5,2877.797
+Jordan,66.5,10203.134
+Bahrain,66.4,1701.575
+Saint Vincent and the Grenadines,65.8,110.94
+Indonesia,65.8,273523.615
+Spain,65.7,46754.778
+Slovenia,65.5,2078.938
+Azerbaijan,65.4,10139.177
+Kazakhstan,65.4,18776.707
+Costa Rica,65.3,5094.118
+Portugal,65.3,10196.709
+Brunei,65.1,437.479
+Slovakia,65,5459.642
+Hungary,65,9660.351
+Barbados,64.7,287.375
+Mexico,64.7,128932.753
+Turkey,64.6,84339.067
+Serbia,63.9,8737.371
+France,63.8,65273.511
+Philippines,63.8,109581.078
+Dominica,63.6,71.986
+Cape Verde,63.1,555.987
+Bahamas,62.9,393.244
+Bhutan,62.9,771.608
+Morocco,62.9,36910.56
+Guatemala,62.6,17915.568
+Ivory Coast,62.4,26378.274
+Kyrgyzstan,62.3,6524.195
+Samoa,62.2,198.414
+Fiji,62.2,896.445
+Italy,62.2,60461.826
+Bosnia and Herzegovina,61.9,3280.819
+El Salvador,61.8,6486.205
+Paraguay,61.8,7132.538
+Seychelles,61.4,98.347
+Croatia,61.4,4105.267
+Oman,61,5106.626
+Dominican Republic,61,10847.91
+Kuwait,60.8,4270.571
+Saudi Arabia,60.7,34813.871
+Montenegro,60.5,628.066
+Honduras,60.2,9904.607
+Tanzania,60.2,59734.218
+Uganda,59.7,45741.007
+Burkina Faso,59.4,20903.273
+Moldova,59.1,4033.963
+Russia,58.9,145934.462
+Namibia,58.7,2540.905
+Papua New Guinea,58.4,8947.024
+China,58.4,1439323.776
+South Africa,58.3,59308.69
+Mali,58.1,20250.833
+Belarus,57.9,9449.323
+Cambodia,57.8,16718.965
+Tonga,57.7,105.695
+Nicaragua,57.7,6624.554
+Greece,57.7,10423.054
+Ghana,57.5,31072.94
+Laos,57.4,7275.56
+Nigeria,57.3,206139.589
+Trinidad and Tobago,57,1399.488
+Guyana,56.8,786.552
+Madagascar,56.6,27691.018
+Vanuatu,56.4,307.145
+Sri Lanka,56.4,21413.249
+Gabon,56.3,2225.734
+Senegal,56.3,16743.927
+Mauritania,55.7,4649.658
+Guinea,55.7,13132.795
+Tajikistan,55.6,9537.645
+Bangladesh,55.6,164689.383
+Belize,55.4,397.628
+Comoros,55.4,869.601
+Mongolia,55.4,3278.29
+Tunisia,55.4,11818.619
+Benin,55.3,12123.2
+Vietnam,55.3,97338.579
+India,55.2,1380004.385
+Kenya,55.1,53771.296
+Pakistan,55,220892.34
+Swaziland,54.7,1160.164
+Solomon Islands,54.6,686.884
+Sao Tome and Principe,54,219.159
+Guinea-Bissau,54,1968.001
+Nepal,53.8,29136.808
+Zambia,53.6,18383.955
+Myanmar,53.6,54409.8
+Ethiopia,53.6,114963.588
+Uzbekistan,53.3,33469.203
+Maldives,53.2,540.544
+Lesotho,53.1,2142.249
+Haiti,52.7,11402.528
+Egypt,52.5,102334.404
+Gambia,52.4,2416.668
+Cameroon,52.4,26545.863
+Ukraine,52.3,43733.762
+Argentina,52.2,45195.774
+Micronesia,51.9,115.023
+Brazil,51.9,212559.417
+Niger,51.6,24206.644
+Afghanistan,51.5,38928.346
+Malawi,51.4,19129.952
+Lebanon,51.1,6825.445
+Iran,51.1,83992.949
+Angola,50.6,32866.272
+Togo,50.3,8278.724
+DR Congo,50.3,89561.403
+Chad,49.9,16425.864
+Liberia,49.7,5057.681
+Central African Republic,49.1,4829.767
+Burundi,48.9,11890.784
+Mozambique,48.6,31255.435
+Turkmenistan,48.4,6031.2
+Suriname,48.1,586.632
+Sudan,47.7,43849.26
+Sierra Leone,47.5,7976.983
+Kiribati,47.3,119.449
+Djibouti,47.1,988
+Ecuador,46.9,17643.054
+Algeria,46.2,43851.044
+Timor-Leste,44.2,1318.445
+Bolivia,42.3,11673.021
+Equatorial Guinea,41,1402.985
+Zimbabwe,40.4,14862.924
+Republic of the Congo,39.7,5518.087
+Eritrea,38.9,3546.421
+Cuba,27.8,11326.616
+Venezuela,25.9,28435.94
+North Korea,5.9,25778.816
