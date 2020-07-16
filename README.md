@@ -1,6 +1,6 @@
 # Georgia Tech CS 4641 - Machine Learning Group 3 Project
 ## Analyzing Unemployment
-Saikanam Siam, Matthew Oswald, Sanjit Kumar, Matthew K Attokaren
+Matthew K Attokaren, Matthew Oswald, Saikanam Siam, Sanjit Kumar
 
 ## Motivation
 We are currently experiencing the second major economic recession of our lifetimes due to the COVID-19 pandemic. In the age of information, the advancement of machine learning algorithms has allowed us to gain more knowledge from global economic data than ever before [1]. Integrating data analysis with financial data has made tremendous strides in trading, fraud detection, and market forecasting [2]. These same techniques can be applied on large scale macroeconomic data for countries to find patterns between economic policy and statistics, and unemployment [3].  
@@ -29,7 +29,7 @@ We did PCA analysis on the group of freedom attributes. We then created a heat m
 
 ![TwoComponentPCA](PCA_component_dependencies.png)
 
-### Method
+## Method
 First we look at a specific economic policy that was historically suggested and used during the first great depression, known as Keynesian policies. According to Keynesian Economics, there are three main ways a government can stabilize an economy during a recession. One way is to decrease interest rates. This allows easier borrowing for businesses and therefore creates more jobs. The second way a government can increase jobs is by decreasing taxes. This is based on the same idea that additional money in the hands of citizens will allow for more businesses to stay open. The third main way a government can stabilize a recession is by increasing spending to again put more money in the hands of citizens.
 
 In order to analyze these policies, we used Regression and PCA to analyze the impact of Keynesian policies on unemployment. Furthermore, we tried and succeeded to back up some of our claims by finding the most important attribute predictors to unemployment by using PCA. The strong correlations between certain attributes and unemployment indicated to us that we could be able to generate an accurate predictor for unemployment. To evaluate our data, grouped our data into two training sets. We wanted to see if we could use a countries previous years' data to predict a future year's unemployment rate.  We also wanted to see if we could predict one countries unemployment rate by using other countries' data.
@@ -40,7 +40,7 @@ We broke up the time series data by separating by country, then separating by ye
 
 Once we knew that Neural Networks worked best for our data, we decided to move on to the next phase of analysis, which is analyzing all the countries on a year by year basis. We decided to hand pick 24 countries that had major affects due to the economic recession of 2008 or had a good trading relationship with the US at the time. The countries we researched and chose are China, Canada, Japan, Germany, United Kingdom, France, India, South Africa, Italy, Israel, Vietnam, Latvia, Chile, Netherlands, Bhutan, Qatar, Turkey, Ukraine, Greece, Belgium, Ethiopia, Lesotho, Zimbabwe, Ghana. We felt like this was a diverse mix of countries and a good subset to test on. We used all the other countries as our training data and ran the algorithm for every year. All of these tests definitely gave us more clarity on what we are able to do and not able to do with the data in hand.
 
-### Results
+## Results
 
 ![heatmap](MacroPolicy/heatmap.png)
 
@@ -62,12 +62,20 @@ Based on this model, we can choose two policies between monetary and fiscal poli
 Decrease Spending During a Recession: We see that there is no impact on unemployment based on initial spending, but we see that there is a positive correlation between the act of increasing spending and unemployment. This goes against Keynesian economics, but a possible explanation would be that increased spending makes people wary of the possibility of a country going bankrupt and therefore less advantageous for business.
 Make Taxes on income, profits and capital gains 42% Before the Next Recession: We can see that the 2007 tax variable is -.0757X+.0009X^2 If we solve for the minimum, we can see that we can decrease unemployment by up to 1.6% by putting the taxes to 42%.
 
-We then moved on to our prediction algorithms. Our results for each algorithm are as follows. Our final algorithm was able to achieve a mean percent error of around 11.4 percent. We considered this to be a good model, and we think that it is an accurate predictor of a country’s unemployment rate. 
+We then moved on to our prediction algorithms. Our results for each algorithm are as follows. Our final algorithm was able to achieve a mean percent error of around 11.4 percent. We considered this to be a good model, and we think that it is an accurate predictor of a country’s unemployment rate.
+
+|     Algorithm             |     Sum of Squared Differences    |     Mean Percent Error    |
+|---------------------------|-----------------------------------|---------------------------|
+|     Linear Regression     |     2240.569837566454             |     47.89802773067209     |
+|     Kernel Ridge          |     275.0206382935021             |     19.756660299281467    |
+|     LARS Lasso            |     158.78309100163676            |     16.29075920173418     |
+|     MLP Neural Network    |     148.5540210937815             |     11.412074346825115    |
 
 
 
 
-### Conclusion
+
+## Conclusion
 
 
 
