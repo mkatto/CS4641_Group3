@@ -15,17 +15,17 @@ Economic recessions can have a major negative impact on countries and their citi
 Additionally, there is a large amount of data available to the public. Economic forecasting is a vital tool for any country to have, and encouraging scientists and researchers to analyze this data could have profound positive impacts on a global scale.
 
 ## The Dataset
-We obtained our attribute data set from the [Heritage Foundation](https://www.heritage.org/index/explore?view=by-region-country-year&u=637302137906965144).  The dataset contains thirteen indexes of economic freedom for each year.  These indices include Property Rights, Judicial Effectiveness, Government Integrity, Tax Burden, Government Spending, Fiscal Health, Business Freedom, Labor Freedom, Monetary Freedom, Trade Freedom, Investment Freedom and Financial Freedom. The Heritage Foundation records these indexes from over 150 countries, with some indexes dating back to 1995 for some of the countries.
+We obtained our attribute data set from the [Heritage Foundation](https://www.heritage.org/index/explore?view=by-region-country-year&u=637302137906965144).  The dataset contains thirteen indexes of economic freedom for each year.  These indices include Property Rights, Judicial Effectiveness, Government Integrity, Tax Burden, Government Spending, Fiscal Health, Business Freedom, Labor Freedom, Monetary Freedom, Trade Freedom, Investment Freedom, and Financial Freedom. The Heritage Foundation records these indexes from over 150 countries, with some indexes dating back to 1995 for some of the countries.
 
 ![Heritage Foundation Dataset](HeritageFoundation2006_2020overallscore.jpg)
 
-We then obtained the unemployment rates fro each country from [The World Bank](https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS).  This dataset contains the unemployment rates for each country, which we used as our labels.
+We then obtained the unemployment rates for each country from [The World Bank](https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS).  This dataset contains the unemployment rates for each country, which we used as our labels.
 
-We gathered data on multiple facets of economics that covers economics at a macro level and micro level instead of looking at them individually. Having so many different features reduces the risk of confounding variable skewing our dataset and us not being able to identify them, although this causes one of the primary problems with high-dimensionality also known as model overfitting. This is where PCA comes in. We used PCA to reduce our dataset to two principal components that would maximize the variance between countries.  This also allowed us to better visualize our dataset and see if there are any trends.
+We gathered data on multiple facets of economics that cover economics at a macro level and micro level instead of looking at them individually. Having so many different features reduces the risk of confounding variables skewing our dataset and us not being able to identify them, although this causes one of the primary problems with high-dimensionality also known as model overfitting. This is where PCA comes in. We used PCA to reduce our dataset to two principal components that would maximize the variance between countries.  This also allowed us to better visualize our dataset and see if there are any trends.
 
 ![First two principal components](2componentPCA.png)
 
-We did PCA analysis on the group of freedom attributes. We then created a heat map of the variables that were most influential using PCA. These were Government Spending and Tax Burden. This means that increased spending frfom the government along wigh a higher tax burden both increase unemployment. These findngs were similar to our basic linear regression results that we show later and go against Keysian economics.
+We did PCA analysis on the group of freedom attributes. We then created a heat map of the variables that were most influential using PCA. These were Government Spending and Tax Burden. This means that increased spending from the government along with a higher tax burden both increase unemployment. These findings were similar to our basic linear regression results that we show later and go against Keynesian economics.
 
 ![TwoComponentPCA](PCA_component_dependencies.png)
 
@@ -106,7 +106,7 @@ We then analyzed the yearly data and tried to predict the 24 countries' unemploy
 |     2017    |     0.321830    |
 |     2018    |     0.341526    |
 
-After running these tests, we concluded with fair certainty that we were not able to accurately predict a country’s unemployment rate given the year and other countries’ data. This makes sense, since it does not factor in that specific country’s economic history. The only upside were the four years from 2012-2015 that gave us a fairly accurate result. We do not think that we were able to generate a very good model for this specific purpose.
+After running these tests, we concluded with fair certainty that we were not able to accurately predict a country’s unemployment rate given the year and other countries’ data. This makes sense, since it does not factor in that specific country’s economic history. The only upside was the four years from 2012-2015 that gave us a fairly accurate result. We do not think that we were able to generate a very good model for this specific purpose.
 
 
 ## Conclusion and Presentation
