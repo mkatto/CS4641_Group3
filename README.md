@@ -25,9 +25,11 @@ We gathered data on multiple facets of economics that cover economics at a macro
 
 ![First two principal components](2componentPCA.png)
 
-We did PCA analysis on the group of freedom attributes. We then created a heat map of the variables that were most influential using PCA. These were Government Spending and Tax Burden. This means that increased spending from the government along with a higher tax burden both increase unemployment. These findings were similar to our basic linear regression results that we show later and go against Keynesian economics.
+We did PCA analysis on the group of freedom attributes. We then created a heat map of the variables that were most influential using PCA. 
 
 ![TwoComponentPCA](PCA_component_dependencies.png)
+
+Each principal component is a linear combination of our original features.  The figure above illustrates how much each component contributed to the first two principal components.  The first principal component accounts for the most variance amonst the countries. The top contributing features for the first principal component were Government Spending and Tax Burden. This means that increased spending from the government along with a higher tax burden both increase unemployment. These findings were similar to our basic linear regression results that we show later and go against Keynesian economics.
 
 ## Method
 First we look at a specific economic policy that was historically suggested and used during the first great depression, known as Keynesian policies. According to Keynesian Economics, there are three main ways a government can stabilize an economy during a recession. One way is to decrease interest rates. This allows easier borrowing for businesses and therefore creates more jobs. The second way a government can increase jobs is by decreasing taxes. This is based on the same idea that additional money in the hands of citizens will allow for more businesses to stay open. The third main way a government can stabilize a recession is by increasing spending to again put more money in the hands of citizens.
