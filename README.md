@@ -1,8 +1,6 @@
-## CS 4641 Machine Learning Group 3 Project
-
-You can use the [editor on GitHub](https://github.com/mkatto/CS4641_Group3/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Georgia Tech CS 4641 - Machine Learning Group 3 Project
+### Analyzing Unemployment
+Saikanam Siam, Matthew Oswald, Sanjit Kumar, Matthew K Attokaren
 
 ### Motivation
 We are currently experiencing the second major economic recession of our lifetimes due to the COVID-19 pandemic. In the age of information, the advancement of machine learning algorithms has allowed us to gain more knowledge from global economic data than ever before [1]. Integrating data analysis with financial data has made tremendous strides in trading, fraud detection, and market forecasting [2]. These same techniques can be applied on large scale macroeconomic data for countries to find patterns between economic policy and statistics, and unemployment [3].  
