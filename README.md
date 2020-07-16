@@ -25,7 +25,7 @@ We gathered data on multiple facets of economics that cover economics at a macro
 
 ![First two principal components](PCA2wUnemployment2.png)
 
-We did PCA analysis on the group of freedom attributes. We then created a heat map of the variables that were most influential using PCA. 
+We did PCA analysis on the group of freedom attributes. We then created a heat map of the variables that were most influential using PCA:
 
 ![TwoComponentPCA](PCA_component_dependencies.png)
 
