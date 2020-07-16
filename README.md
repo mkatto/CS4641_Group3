@@ -17,7 +17,7 @@ We got our data set from the [Heritage Foundation](https://www.heritage.org/inde
 
 ![Heritage Foundation Dataset](HeritageFoundation2006_2020overallscore.jpg)
 
-We gathered data on multiple facets of economics that covers economics at a macro level and micro level instead of looking at them individually. Having so many different features reduces the risk of confounding variable skewing our dataset and us not being able to identify them, although this causes one of the primary problems with high-dimensionality also known as model overfitting. This is where PCA comes in. 
+We gathered data on multiple facets of economics that covers economics at a macro level and micro level instead of looking at them individually. Having so many different features reduces the risk of confounding variable skewing our dataset and us not being able to identify them, although this causes one of the primary problems with high-dimensionality also known as model overfitting. This is where PCA comes in. We did PCA analysis on the group of freedom attributes. We then created a heat map of the variables that were most influential using PCA. These were Government Spending and Tax Burden. This means that increased spending frfom the government along wigh a higher tax burden both increase unemployment. These findngs were similar to our basic linear regression results that we show later and go against Keysian economics.
 
 ![TwoComponentPCA](PCA_component_dependencies.png)
 
