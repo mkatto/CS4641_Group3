@@ -80,7 +80,7 @@ We then moved on to our prediction algorithms. Our results for each algorithm ar
 
 The first chart is a box and whiskers plot for the Percent Error for the countries. It makes it easy to see the minimum, mean, maximum, quartiles and outliers for the data. The number of outliers also decreased as we used better algorithms.
 
-The second chart is a scatterplot that contains the Actual Unemployment rate on the X axis and the Prediction on the Y axis for each country. It is clear to see that as we used better algorithms, the trend line become more concentrated towards the line $y=x$. This further indicates the increase in model accuracy.
+The second chart is a scatterplot that contains the Actual Unemployment rate on the X axis and the Prediction on the Y axis for each country. It is clear to see that as we used better algorithms, the trend line become more concentrated towards the line y=x. This further indicates the increase in model accuracy.
 
 #### Linear Regression
 
