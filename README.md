@@ -76,7 +76,11 @@ We then moved on to our prediction algorithms. Our results for each algorithm ar
 |     LARS Lasso            |     158.78309100163676            |     16.29075920173418     |
 |     MLP Neural Network    |     148.5540210937815             |     11.412074346825115    |
 
-### Mean Percent Error for Each Country for Each Algorithm
+### Percent Error for Each Country for Each Algorithm
+
+The first chart is a box and whiskers plot for the Percent Error for the countries. It makes it easy to see the minimum, mean, maximum, quartiles and outliers for the data. The number of outliers also decreased as we used better algorithms.
+
+The second chart is a scatterplot that contains the Percent Error for each country. It is clear to see that as we used better algorithms, the Percent Errors as a whole moved towards the bottom and had less outlier clusters.
 
 #### Linear Regression
 
