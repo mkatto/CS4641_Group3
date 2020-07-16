@@ -25,7 +25,7 @@ We gathered data on multiple facets of economics that cover economics at a macro
 
 ![First two principal components](PCA2wUnemployment2.png)
 
-The median unemployment rate for all countries was 5.83%.  Using this value, countries were split into two group: countries with unemployment above the median rate and countries with unemployment below median rate.  At first glance, there did not appear to be a simple way to seperate countries with high employment from countries with low employment.  For future analysis, we would like to use SVM to see if we can create a linear classifier in a higher dimensional space.
+The median unemployment rate for all countries was 5.83%.  Using this value, countries were split into two group: countries with unemployment above the median rate and countries with unemployment below median rate.  At first glance, there did not appear to be a simple way to seperate countries with high employment from countries with low employment using the two principal components.  For future analysis, we would like to use SVM to see if we can create a linear classifier in a higher dimensional space.
 
 We did PCA analysis on the group of freedom attributes. We then created a heat map of the variables that were most influential using PCA:
 
