@@ -62,6 +62,7 @@ Based on this model, we can choose two policies between monetary and fiscal poli
 Decrease Spending During a Recession: We see that there is no impact on unemployment based on initial spending, but we see that there is a positive correlation between the act of increasing spending and unemployment. This goes against Keynesian economics, but a possible explanation would be that increased spending makes people wary of the possibility of a country going bankrupt and therefore less advantageous for business.
 Make Taxes on income, profits and capital gains 42% Before the Next Recession: We can see that the 2007 tax variable is -.0757X+.0009X^2 If we solve for the minimum, we can see that we can decrease unemployment by up to 1.6% by putting the taxes to 42%.
 
+
 We then moved on to our prediction algorithms. Our results for each algorithm are as follows. Our final algorithm was able to achieve a mean percent error of around 11.4 percent. We considered this to be a good model, and we think that it is an accurate predictor of a country’s unemployment rate.
 
 |     Algorithm             |     Sum of Squared Differences    |     Mean Percent Error    |
@@ -71,15 +72,40 @@ We then moved on to our prediction algorithms. Our results for each algorithm ar
 |     LARS Lasso            |     158.78309100163676            |     16.29075920173418     |
 |     MLP Neural Network    |     148.5540210937815             |     11.412074346825115    |
 
+### Mean Percent Error for Each Country for Each Algorithm
+
+![Linear Regression](LinReg.png)
+
+![Kernel Ridge](KRidge.png)
+
+![LARS Lasso](Lasso.png)
+
+![MLP Neural Network](Neural.png)
+
+
+We then analyzed the yearly data and tried to predict the 24 countries' unemployment using the rest of the countries. We tuned the Neural Network again to obtain the best results we could get, but we did not obtain the high results that we wanted. We scored all the test data for each year using SKLearn and obtained these results.
+
+|     Year    |     Score       |
+|-------------|-----------------|
+|     2009    |     0.139663    |
+|     2010    |     0.242222    |
+|     2011    |     0.292534    |
+|     2012    |     0.451128    |
+|     2013    |     0.308387    |
+|     2014    |     0.445866    |
+|     2015    |     0.406520    |
+|     2016    |     0.252423    |
+|     2017    |     0.321830    |
+|     2018    |     0.341526    |
+
+After running these tests, we concluded with fair certainty that we were not able to accurately predict a country’s unemployment rate given the year and other countries’ data. This makes sense, since it does not factor in that specific country’s economic history. The only upside were the four years from 2012-2015 that gave us a fairly accurate result. We do not think that we were able to generate a very good model for this specific purpose.
+
+
+## Conclusion and Video Link
 
 
 
-
-## Conclusion
-
-
-
-### References
+## References
 - [1] Athey, S. (2018). The impact of machine learning on economics. In The economics of artificial intelligence: An agenda (pp. 507-547). University of Chicago Press. 
 
 - [2] Puglia, M., & Tucker, A. (2020). Machine Learning, the Treasury Yield Curve and Recession Forecasting. 
