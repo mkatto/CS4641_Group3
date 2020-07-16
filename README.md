@@ -37,7 +37,7 @@ Variables that don't affect future unemployment: Initial Government Spending (pr
 All of these had P>|t| of .4 or more.
 Our final model for identifying changes in policy looked like this:
 
-![prediction]MacroPolicy/predictols.PNG
+![prediction](MacroPolicy/predictols.PNG)
 
 Based on this model, we can choose two policies between monetary and fiscal policy.
 Decrease Spending During a Recession: We see that there is no impact on unemployment based on initial spending, but we see that there is a positive correlation between the act of increasing spending and unemployment. This goes against Keynesian economics, but a possible explanation would be that increased spending makes people wary of the possibility of a country going bankrupt and therefore less advantageous for business.
