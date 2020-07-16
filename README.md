@@ -19,7 +19,7 @@ We got our data set from the [Heritage Foundation](https://www.heritage.org/inde
 
 We gathered data on multiple facets of economics that covers economics at a macro level and micro level instead of looking at them individually. Having so many different features reduces the risk of confounding variable skewing our dataset and us not being able to identify them, although this causes one of the primary problems with high-dimensionality also known as model overfitting. This is where PCA comes in. 
 
-![TwoComponentPCA](PCA_compoent_dependencies.png)
+![TwoComponentPCA](PCA_component_dependencies.png)
 
 
 ### Method
