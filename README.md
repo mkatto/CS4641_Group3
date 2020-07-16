@@ -23,7 +23,8 @@ We then obtained the unemployment rates fro each country from [The World Bank](h
 
 We gathered data on multiple facets of economics that covers economics at a macro level and micro level instead of looking at them individually. Having so many different features reduces the risk of confounding variable skewing our dataset and us not being able to identify them, although this causes one of the primary problems with high-dimensionality also known as model overfitting. This is where PCA comes in. We used PCA to reduce our dataset to two principal components that would maximize the variance between countries.  This also allowed us to better visualize our dataset and see if there are any trends.
 
-![First two principal components](2componentPCA.png)
+![First two principal components](PCA2wUnemployment.png)
+The median unemployment rate for all countries was 5.83%.  Using this value, countries were split into two group: countries with unemployment above the median rate and countries with unemployment below median rate.  At first glance, there did not appear to be a simple way to seperate countries with high employment from countries with low employment.
 
 We did PCA analysis on the group of freedom attributes. We then created a heat map of the variables that were most influential using PCA. These were Government Spending and Tax Burden. This means that increased spending frfom the government along wigh a higher tax burden both increase unemployment. These findngs were similar to our basic linear regression results that we show later and go against Keysian economics.
 
