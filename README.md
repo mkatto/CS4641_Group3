@@ -21,11 +21,11 @@ We obtained most of our attribute data set from the [Heritage Foundation](https:
 
 We then obtained the unemployment rates for each country from [The World Bank](https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS).  This dataset contains the unemployment rates for each country, which we used as our labels. For our linear regression analysis, we also obtained [spending] (https://data.worldbank.org/indicator/NE.CON.GOVT.ZS), [taxes](https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS), and [interest rates] (https://data.worldbank.org/indicator/FR.INR.RINR) from the world bank. 
 
+We then obtained the unemployment rates for each country from [The World Bank](https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS).  This dataset contains the unemployment rates for each country, which we used as our labels. For our linear regression analysis, we also obtained [spending](https://data.worldbank.org/indicator/NE.CON.GOVT.ZS), [taxes](https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS),occupational data ([agriculture](https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS), [industry](https://data.worldbank.org/indicator/SL.IND.EMPL.ZS), [services](https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS)) and [interest rates](https://data.worldbank.org/indicator/FR.INR.RINR) from the world bank.
+
 We gathered data on multiple facets of economics that cover economics at a macro level and micro level instead of looking at them individually. Having so many different features reduces the risk of confounding variables skewing our dataset and us not being able to identify them, although this causes one of the primary problems with high-dimensionality also known as model overfitting. This is where PCA comes in. We used PCA to reduce our dataset to two principal components that would maximize the variance between countries.  This also allowed us to better visualize our dataset and see if there are any trends.
 
-![First two principal components](PCA2wUnemployment2.png)
-
-The median unemployment rate for all countries was 5.83%.  Using this value, countries were split into two group: countries with unemployment above the median rate and countries with unemployment below median rate.  At first glance, there did not appear to be a simple way to seperate countries with high employment from countries with low employment.  For future analysis, we would like to use SVM to see if we can create a linear classifier in a higher dimensional space.
+![First two principal components](2componentPCA.png)
 
 We did PCA analysis on the group of freedom attributes. We then created a heat map of the variables that were most influential using PCA. These were Government Spending and Tax Burden. This means that increased spending from the government along with a higher tax burden both increase unemployment. These findings were similar to our basic linear regression results that we show later and go against Keynesian economics.
 
