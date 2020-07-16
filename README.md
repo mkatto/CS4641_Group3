@@ -74,11 +74,19 @@ We then moved on to our prediction algorithms. Our results for each algorithm ar
 
 ### Mean Percent Error for Each Country for Each Algorithm
 
+#### Linear Regression
+
 ![Linear Regression](LinReg.png)
+
+#### Kernel Ridge
 
 ![Kernel Ridge](KRidge.png)
 
+#### LARS Lasso
+
 ![LARS Lasso](Lasso.png)
+
+#### MLP Neural Network
 
 ![MLP Neural Network](Neural.png)
 
