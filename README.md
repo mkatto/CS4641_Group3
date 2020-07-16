@@ -23,7 +23,7 @@ We then obtained the unemployment rates for each country from [The World Bank](h
 
 We gathered data on multiple facets of economics that cover economics at a macro level and micro level instead of looking at them individually. Having so many different features reduces the risk of confounding variables skewing our dataset and us not being able to identify them, although this causes one of the primary problems with high-dimensionality also known as model overfitting. This is where PCA comes in. We used PCA to reduce our dataset to two principal components that would maximize the variance between countries.  This also allowed us to better visualize our dataset and see if there are any trends.
 
-![First two principal components](2componentPCA.png)
+![First two principal components](PCA2wUnemployment2.png)
 
 We did PCA analysis on the group of freedom attributes. We then created a heat map of the variables that were most influential using PCA. These were Government Spending and Tax Burden. This means that increased spending from the government along with a higher tax burden both increase unemployment. These findings were similar to our basic linear regression results that we show later and go against Keynesian economics.
 
