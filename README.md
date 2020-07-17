@@ -46,7 +46,7 @@ We broke up the time series data by separating by country, then separating by ye
 
 Once we knew that Neural Networks worked best for our data, we decided to move on to the next phase of analysis, which is analyzing all the countries on a year by year basis. We decided to hand pick 24 countries that had major affects due to the economic recession of 2008 or had a good trading relationship with the US at the time. The countries we researched and chose are China, Canada, Japan, Germany, United Kingdom, France, India, South Africa, Italy, Israel, Vietnam, Latvia, Chile, Netherlands, Bhutan, Qatar, Turkey, Ukraine, Greece, Belgium, Ethiopia, Lesotho, Zimbabwe, Ghana. We felt like this was a diverse mix of countries and a good subset to test on. We used all the other countries as our training data and ran the algorithm for every year. All of these tests definitely gave us more clarity on what we are able to do and not able to do with the data in hand.
 
-## Creating a model to decide changes
+## Results
 
 ![heatmap](MacroPolicy/heatmap.png)
 
