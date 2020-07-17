@@ -44,7 +44,7 @@ We broke up the time series data by separating by country, then separating by ye
 
 Once we knew that Neural Networks worked best for our data, we decided to move on to the next phase of analysis, which is analyzing all the countries on a year by year basis. We decided to hand pick 24 countries that had major affects due to the economic recession of 2008 or had a good trading relationship with the US at the time. The countries we researched and chose are China, Canada, Japan, Germany, United Kingdom, France, India, South Africa, Italy, Israel, Vietnam, Latvia, Chile, Netherlands, Bhutan, Qatar, Turkey, Ukraine, Greece, Belgium, Ethiopia, Lesotho, Zimbabwe, Ghana. We felt like this was a diverse mix of countries and a good subset to test on. We used all the other countries as our training data and ran the algorithm for every year. All of these tests definitely gave us more clarity on what we are able to do and not able to do with the data in hand.
 
-## Results
+## Creating a model to decide changes
 
 ![heatmap](MacroPolicy/heatmap.png)
 
@@ -63,7 +63,7 @@ Our final model for identifying changes in policy looked like this:
 ![prediction](MacroPolicy/predictols.PNG)
 
 Based on this model, we can choose two policies between monetary and fiscal policy.
-Decrease Spending During a Recession: We see that there is no impact on unemployment based on initial spending, but we see that there is a positive correlation between the act of increasing spending and unemployment. This goes against Keynesian economics, but a possible explanation would be that increased spending makes people wary of the possibility of a country going bankrupt and therefore less advantageous for business.
+Decrease Spending During a Recession:e see that there is no impact on unemployment based on initial spending, but we see that there is a positive correlation between the act of increasing spending and unemployment. This seems like it goes against Keynesian economics, but a possible explanation would be that increased spending makes people wary of the possibility of a country going bankrupt and therefore less advantageous for business. Oftentimes taxes for businesses go up to accomodate the increase in govt. spending, this in turn makes economoic recovery harder. 
 Make Taxes on income, profits and capital gains 42% Before the Next Recession: We can see that the 2007 tax variable is -.0757X+.0009X^2 If we solve for the minimum, we can see that we can decrease unemployment by up to 1.6% by putting the taxes to 42%.
 
 
@@ -114,11 +114,16 @@ We then analyzed the yearly data and tried to predict the 24 countries' unemploy
 |     2017    |     0.321830    |
 |     2018    |     0.341526    |
 
-After running these tests, we concluded with fair certainty that we were not able to accurately predict a country’s unemployment rate given the year and other countries’ data. This makes sense, since it does not factor in that specific country’s economic history. The only upside was the four years from 2012-2015 that gave us a fairly accurate result. We do not think that we were able to generate a very good model for this specific purpose. Additionally, we think that adding the previous year's unemployment as an attribute for the current year would have increased the score, which is something we can look into for the future.
+After running these tests, we concluded with fair certainty that we were not able to accurately predict a country’s unemployment rate given the year and other countries’ data. This makes sense, since it does not factor in that specific country’s economic confounding variables. The only upside was the four years from 2012-2015 that gave us a fairly accurate result. We do not think that we were able to generate a very good model for this specific purpose. Additionally, we think that adding the previous year's unemployment as an attribute for the current year would have increased the score, which is something we can look into for the future.
 
 
 ## Conclusion and Presentation
+Although it might seem our findings about economic recovery go against standard beliefs held in Keyesian policies, but in fact it goes against increased government spending and high taxation of businesses during economic recovery. It is held in standard Keynesian beliefs that the government should only step in when there's a severe economic downturn, but once it's on the recovery phase it should go back to free market policies of lowering the taxes. Therefore it's not totally incompatible with Keynesian economics. 
 
+We've concluded from our model that during the recovery phase, increasing govt. spending in the long run is not optimal for economic recovery.  a further extension would be to separate out economic downturn and recovery phase and analyze them individually. We are confident by the low mean percent error that our predictive model was an accurate predictor of a country's unemployment rate, and we managed to find an optimal tax policy that should supposedly help in economic recovery.
+
+Since economic downturns in United States affects the rest of the world, we tried to use this intuition to try to find a good idea of unemployment of the global economy at once. 
+Our findings definitely fall short when it comes to using one snapshot at a time to look at the global economy and predicting the unemployment of 24 countries just by using the rest of the countries. This would make sense given the huge array of confounding variables and their variabiliy in trade relations between countries, tariffs, sanctions , type of governments in the entire world. This tells us how hard global economic predictions are and why they can be often wrong.
 
 
 ## References
