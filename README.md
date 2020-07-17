@@ -65,8 +65,12 @@ Our final model for identifying changes in policy looked like this:
 ![prediction](MacroPolicy/predictols.PNG)
 
 Based on this model, we can choose two policies between monetary and fiscal policy.
-Decrease Spending During a Recession:e see that there is no impact on unemployment based on initial spending, but we see that there is a positive correlation between the act of increasing spending and unemployment. This seems like it goes against Keynesian economics, but a possible explanation would be that increased spending makes people wary of the possibility of a country going bankrupt and therefore less advantageous for business. Oftentimes taxes for businesses go up to accomodate the increase in govt. spending, this in turn makes economoic recovery harder. 
-Make Taxes on income, profits and capital gains 42% Before the Next Recession: We can see that the 2007 tax variable is -.0757X+.0009X^2 If we solve for the minimum, we can see that we can decrease unemployment by up to 1.6% by putting the taxes to 42%.
+
+
+**Decrease Spending During a Recession**: We see that there is no impact on unemployment based on initial spending, but we see that there is a positive correlation between the act of increasing spending and unemployment. This seems like it goes against Keynesian economics, but a possible explanation would be that increased spending makes people wary of the possibility of a country going bankrupt and therefore less advantageous for business. Oftentimes taxes for businesses go up to accomodate the increase in govt. spending, this in turn makes economoic recovery harder. 
+
+
+**Make Taxes on income, profits and capital gains 42% Before the Next Recession**: We can see that the 2007 tax variable is -.0757X+.0009X^2 If we solve for the minimum, we can see that we can decrease unemployment by up to 1.6% by putting the taxes to 42%.
 
 
 We then moved on to our prediction algorithms. Our results for each algorithm are as follows. Our final algorithm was able to achieve a mean percent error of around 11.4 percent. We considered this to be a good model, and we think that it is an accurate predictor of a country’s unemployment rate.
