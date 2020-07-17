@@ -99,7 +99,7 @@ The second chart is a scatterplot that contains the Actual Unemployment rate on 
 ![MLP Neural Network](Neural.png)
 
 
-We then analyzed the yearly data and tried to predict the 24 countries' unemployment using the rest of the countries. We tuned the Neural Network again to obtain the best results we could get, but we did not obtain the high results that we wanted. We scored all the test data for each year using SKLearn and obtained these results.
+We then analyzed the yearly data and tried to predict the 24 countries' unemployment using the rest of the countries. Note that this is a different way of analyzing the same data, since we're analyzing all countries in a year rather than a country over time. We tuned the Neural Network again to obtain the best results we could get, but we did not obtain the high results that we wanted. We scored all the test data for each year using SKLearn and obtained these results.
 
 |     Year    |     Score       |
 |-------------|-----------------|
