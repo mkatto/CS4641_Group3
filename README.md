@@ -128,6 +128,9 @@ At first glance, our findings about economic recovery goes against some of the s
 
 Unemployment forecasting would be an extremely vital tool for countries, and we did our best to create a consistent model that can analyze the Heritage statistics for a country over time to predict unemployment. We are confident by the low mean percent error that our machine learning model was an accurate predictor of a country's unemployment rate. Additionally, economic downturns in United States affect the rest of the world, and we tried to use this intuition to try to predict the unemployment levels of the global economy year by year during the decade after the economic recession. Our findings definitely fall short when it comes to using one snapshot at a time to look at the global economy and predicting the unemployment of 24 countries just by using the rest of the countries. This makes sense given the huge array of confounding variables and their variabiliy in trade relations between countries, tariffs, sanctions, and types of governments in the entire world. As stated before, we could have improved our results by adding the previous year's unemployment as a current attribute. This just goes to show how fickle global economic predictions are and why they can often be wrong.
 
+#### Presentation Link
+https://youtu.be/-gZ2_5S99sk
+
 
 ## References
 - [1] Athey, S. (2018). The impact of machine learning on economics. In The economics of artificial intelligence: An agenda (pp. 507-547). University of Chicago Press. 
